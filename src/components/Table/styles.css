@@ -1,0 +1,9 @@
+.container{
+    display: grid;
+    grid-template-columns:repeat(4,auto);
+}
+
+.full{
+    grid-column-start:1;
+    grid-column-end:5
+}

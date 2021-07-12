@@ -9,7 +9,7 @@ export default function Pagination({totalPages,currentPage,nextPage,previousPage
      }
 
 
-    return (<div className="container">
+    return (<div className="pagination-container">
     <button onClick={previousPage}>Prev</button>
      {
          numbers.map(({value,selected})=><div className={classNames("page",{

@@ -1,5 +1,4 @@
 
-
 export default function searchBar({updateSearchQuery}){
-return(<input type="text" onKeyUp={updateSearchQuery}/>)
+return(<input className="full" type="text" onKeyUp={updateSearchQuery}/>)
 }
