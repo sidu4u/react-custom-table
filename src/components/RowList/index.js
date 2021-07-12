@@ -1,4 +1,4 @@
-import Row from "./Row";
+import Row from "../Row";
 
 export default function RowList({data}){
     return data.map(row=>(<Row key={row} data={row}/>));

@@ -1,11 +1,11 @@
 import {useState,useCallback} from 'react';
-import RowList from "./RowList";
-import Pagination from "./Pagination";
-import SearchBar from "./SearchBar";
-import SortingBar from "./SortingBar";
-import usePagination from "../hooks/usePagination";
-import useSearch from "../hooks/useSearch";
-import useSorting from "../hooks/useSorting";
+import RowList from "../RowList";
+import Pagination from "../Pagination";
+import SearchBar from "../SearchBar";
+import SortingBar from "../SortingBar";
+import usePagination from "../../hooks/usePagination";
+import useSearch from "../../hooks/useSearch";
+import useSorting from "../../hooks/useSorting";
 
  function Table({data}){
     let [searchQuery,updateSearchQuery] = useState('');
