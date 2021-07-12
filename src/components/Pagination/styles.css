@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    height:20px;
+    align-items: center;
+}
+
+.page{
+    cursor:pointer;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.focus{
+    background: lightgray;
+    border-radius: 5px;
+}
